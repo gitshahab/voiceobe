@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="border-t border-slate-800/80 bg-slate-950/90 py-12 px-4 sm:px-6">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="text-center md:text-left space-y-1">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 md:pl-9">
             <Image
               src="/logo.png"
               alt="voiceobe logo"
@@ -21,7 +21,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <p className="text-xs text-slate-500 max-w-sm pl-9">
+          <p className="text-xs text-slate-500 max-w-sm md:pl-9">
             Free forever. No telemetry cookies, no subscriptions, and zero
             paywalls for creators.
           </p>
@@ -42,7 +42,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-6xl mx-auto mt-8 pt-6 border-t border-slate-900 text-center text-xs text-slate-600 flex items-center justify-center gap-1">
-        All rights reserved Crafted with{" "}
+        All rights reserved. Crafted with{" "}
         <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" /> for
         unrestricted audio synthesis.
       </div>

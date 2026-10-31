@@ -9,6 +9,7 @@ export interface CharacterVoice {
   defaultRate: number;
   avatarBg: string;
   tagline: string;
+  img: string;
 }
 
 export const CHARACTERS: CharacterVoice[] = [
@@ -23,6 +24,7 @@ export const CHARACTERS: CharacterVoice[] = [
     defaultRate: 0,
     avatarBg: "from-amber-500 to-rose-600",
     tagline: "Ultra expressive Hindi narration with immaculate diction.",
+    img: "/swara.png",
   },
   {
     id: "kylo-madhur",
@@ -35,6 +37,7 @@ export const CHARACTERS: CharacterVoice[] = [
     defaultRate: -4,
     avatarBg: "from-red-600 to-zinc-950",
     tagline: "Deep, commanding resonant Hindi voice for dramatic impact.",
+    img: "/madhur.png",
   },
   {
     id: "padme-neerja",
@@ -48,6 +51,7 @@ export const CHARACTERS: CharacterVoice[] = [
     avatarBg: "from-emerald-500 to-teal-700",
     tagline:
       "Natural Indian-English corporate, technical, and podcast cadence.",
+    img: "/neerja.png",
   },
   {
     id: "kenobi-prabhat",
@@ -61,6 +65,7 @@ export const CHARACTERS: CharacterVoice[] = [
     avatarBg: "from-blue-600 to-cyan-500",
     tagline:
       "Smooth, trustworthy Indian-accented English with crisp articulation.",
+    img: "/prabhat.png",
   },
   {
     id: "leia-aria",
@@ -73,6 +78,7 @@ export const CHARACTERS: CharacterVoice[] = [
     defaultRate: 5,
     avatarBg: "from-purple-500 to-indigo-600",
     tagline: "Snappy, clean American commercial voiceover tone.",
+    img: "/aria.png",
   },
   {
     id: "han-guy",
@@ -85,5 +91,6 @@ export const CHARACTERS: CharacterVoice[] = [
     defaultRate: 2,
     avatarBg: "from-slate-600 to-zinc-800",
     tagline: "Casual, conversational, natural American male storytelling.",
+    img: "/solo.png",
   },
 ];
