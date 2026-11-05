@@ -69,7 +69,7 @@ export default function Hero() {
             className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white font-medium text-sm flex items-center justify-center gap-2 shadow-lg shadow-indigo-500/25 transition active:scale-[0.98]"
           >
             <Speaker className="w-4 h-4 rotate-90" />
-            <span>Launch Free Studio</span>
+            <span>Launch Studio</span>
             <ArrowRight className="w-4 h-4 ml-1" />
           </Link>
           <a
