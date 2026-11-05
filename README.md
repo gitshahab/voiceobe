@@ -47,9 +47,8 @@ Voiceobe is built with a modern, edge-ready web stack to ensure lightning-fast p
 
 Want to run Voiceobe locally or deploy your own instance? It takes less than 2 minutes.
 
-### 1. Clone the repository
-
 ```bash
+1. Clone the repository
 git clone [https://github.com/yourusername/voiceobe.git](https://github.com/yourusername/voiceobe.git)
 cd voiceobe
 2. Install dependencies
