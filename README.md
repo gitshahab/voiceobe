@@ -52,12 +52,11 @@ Want to run Voiceobe locally or deploy your own instance? It takes less than 2 m
 git clone [https://github.com/yourusername/voiceobe.git](https://github.com/yourusername/voiceobe.git)
 cd voiceobe
 2. Install dependencies
-Bash
 npm install
 3. Run the development server
-Bash
 npm run dev
 Open http://localhost:3000 with your browser to see the result.
+```
 
 🗺️ Future Roadmap (The ElevenLabs Replica)
 Voiceobe currently utilizes Edge-TTS for high-quality, free preset voices. To achieve our goal of becoming a 1:1 free alternative to ElevenLabs, here is what is coming next:
@@ -90,4 +89,3 @@ Voiceobe is free and always will be. If this tool saved you a subscription fee, 
 
 📄 License
 Distributed under the MIT License. See LICENSE for more information.
-```
